@@ -1,0 +1,112 @@
+.mainContainer {
+  width: 1000px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+.row_header {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.headerName {
+  font-size: 40px;
+}
+
+.social {
+  border-radius: 25px;
+}
+
+.forElbrus {
+  font-size: 40px;
+}
+
+.mainContent {
+  background-color: bisque;
+}
+
+.row_content_first {
+  display: flex;
+}
+
+.content_text_first {
+  margin: auto;
+  font-style: inherit;
+  font-size: x-large;
+}
+
+.content_text_second {
+  margin: auto;
+  font-style: inherit;
+  font-size: x-large;
+  text-align: center;
+}
+#education {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#educationContent {
+  text-align: center;
+}
+
+.row_content_second {
+  display: flex;
+}
+
+#sportText {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.content_photo_second {
+}
+
+.row_content_third {
+  display: flex;
+}
+
+.content_text_third {
+  margin: auto;
+  font-style: inherit;
+  font-size: x-large;
+  text-align: center;
+}
+
+#dream {
+  text-decoration: underline;
+}
+.row_footer {
+  background-color: burlywood;
+  height: 100px;
+}
+
+.animationCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  position: relative;
+  left: 0;
+  animation-name: whiteCircle;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+@keyframes whiteCircle {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 500px;
+  }
+  100% {
+    left: 900px;
+  }
+}
